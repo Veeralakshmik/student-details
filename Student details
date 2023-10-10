@@ -1,0 +1,10 @@
+sname=str(input("Enter the student name"));
+sno=int(input("Enter the rno"));
+group=str(input("Enter the group"));
+s1=int(input("Enter dbms marks"));
+s2=int(input("Enter ds marks"));
+s3=int(input("Enter python marks"));
+total=s1+s2+s3;
+average=total/3;
+print(total,average);
+
